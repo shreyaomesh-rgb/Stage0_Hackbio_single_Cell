@@ -1,0 +1,11 @@
+team = [ { "name": "Shreya", "slack": "Shreya", "country": "India", "hobby": "Listening to music", "affiliation": "Anna University", "favorite_gene_dna": "AGTGCAGACGCGGCTCCTAGCGGATGGGTGCTATTGTGAGGCGGTTGTAGAAGGTATGAGGAGGCTGTGC" }, { "name": "Aworetan Olamide", "slack": "Olamide_etan", "country": "Nigeriaa", "hobby": "Swimming", "affiliation": "Public laboratory analyst", "favorite_gene_dna": "ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTAT" }, { "name": "Faith Omondi", "slack": "Faith", "country": "Kenya", "hobby": "Drawing", "affiliation": "University of Nairobi", "favorite_gene_dna": "ATGGCCCTGTGGATGCGCCTCCTGCCCCTGCTGGCGCTGCTGGCCCTCTGGGGACCTGACCCAGCCGCAGCCTTTGTGAACCAACACCTGTGCGGCTCACACCTGGTGGAAGCTCTCTACCTAGTGTGCGGGGAACGAGGCTTCTTCTACACACCCAAGACCCGCCGGGAGGCAGAGGACCTGCAGGTGGGGCAGGTGGAGCTGGGCGGGGGCC CTGGTGCAGGCAGCCTGCAGCCCTTGCCCGAGCTCTACCTGCTGTGCAACTCCTACGGGTGGGCCTACGTGGACAGCCAGGCTGGCCTCGACTCC" }, { "name": "Taiwo Bankole", "slack": "Taiwo Bankole", "country": "Nigeria", "hobby": "Reading", "affiliation": "University of Maryland", "favorite_gene_dna": "ACAGCCCACAAAATTCCACCTGCTCACAGGTTGGCTGGCTCGACCCAGGTGGTGTCCCCTGCTCTGAGCCAGCTCCCGGCCAAGCCAGCACCATGGCCAGATACCGATGCTGCCGCAGCAAAAGCAGGAGCAGATGCCGCCGTCGCAGGCGAAGATGTCGCAGACGGAGGAGGCGATGCTGCCGGCGGAGGAGGCGAAGATGCTGCCGTCGCCGCCGCTCATACACCATAAGGTGTAAAAAATACTAGATGCACAGAATAGCAAGTCCATCAAAACTCCTGCGTGAGAATTTTACCAGACTTCAAGAGCATCTCGCCACATCTTGAAAAATGCCACCGTCCGATGAAAAACAGGAGCCTGCTAAGGAACAATGCCACCTGTCAATAAATGTTGAAAACTC" }, { "name": "Adeyeye Daniel", "slack": "Adeyeye Daniel", "country": "Nigeria", "hobby": "Writing", "affiliation": "Mohammed VI Polytechnic University", "favorite_gene_dna": "ATGCGTACGTTAGCCTGACCGGATCGTTAAGGCTGATCGGCAATGCCGTTGATCCTGAGCTTGGACGATGCTGAATCGCTGACCGTTGCTGAATGACCTGAATAA" }, { "name": "Ofosaren Favour", "slack": "Ofosaren Favour", "country": "Nigeria", "hobby": "Dancing", "affiliation": "Delta state university", "favorite_gene_dna": "ATGCGTACCTGAACTGCTTAGGCTTACGGAATCGTAA" }  ] 
+# Loop through each team member and print their details 
+for member in team: 
+	print("Name:", member["name"]) 
+	print("Slack Username:", member["slack"]) 
+	print("Country:", member["country"]) 
+	print("Hobby:", member["hobby"]) 
+	print("Affiliation:", member["affiliation"]) 
+	print("Favorite Gene DNA Sequence:", 
+	member["favorite_gene_dna"]) 
+	print("-" * 50)
